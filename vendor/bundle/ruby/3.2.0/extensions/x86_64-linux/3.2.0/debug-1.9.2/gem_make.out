@@ -1,0 +1,19 @@
+current directory: /home/claraleighton/WebTechnologies/Laboratorios/lab-07-ClaraLeighton/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+/home/claraleighton/.rbenv/versions/3.2.0/bin/ruby -I /home/claraleighton/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/claraleighton/WebTechnologies/Laboratorios/lab-07-ClaraLeighton/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240426-17029-32r1yi sitelibdir\=./.gem.20240426-17029-32r1yi clean
+
+current directory: /home/claraleighton/WebTechnologies/Laboratorios/lab-07-ClaraLeighton/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240426-17029-32r1yi sitelibdir\=./.gem.20240426-17029-32r1yi
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/claraleighton/WebTechnologies/Laboratorios/lab-07-ClaraLeighton/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240426-17029-32r1yi sitelibdir\=./.gem.20240426-17029-32r1yi install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240426-17029-32r1yi/debug
+
+current directory: /home/claraleighton/WebTechnologies/Laboratorios/lab-07-ClaraLeighton/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240426-17029-32r1yi sitelibdir\=./.gem.20240426-17029-32r1yi clean
