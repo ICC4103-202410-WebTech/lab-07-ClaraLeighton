@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+    
     has_many :posts 
 
     validates :name, :email, :password, presence: { message: "is missing! Please fill it in" }

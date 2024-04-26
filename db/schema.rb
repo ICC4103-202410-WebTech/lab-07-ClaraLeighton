@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_04_26_205408) do
+ActiveRecord::Schema[7.1].define(version: 2024_04_26_223523) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -32,6 +32,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_26_205408) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "user_id"
+    t.integer "parent_post_id"
     t.index ["user_id"], name: "index_posts_on_user_id"
   end
 
@@ -49,4 +50,5 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_26_205408) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "posts", "posts", column: "parent_post_id"
 end
